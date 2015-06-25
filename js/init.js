@@ -5,5 +5,10 @@
     $('.parallax').parallax();
     $('.scrollspy').scrollSpy();
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+
+var BV = new $.BigVideo();
+    BV.init();
+    BV.show('http://vjs.zencdn.net/v/oceans.mp4',{ambient:false});
+
+  });
+})(jQuery);
