@@ -12,7 +12,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 480px;
+  min-height: 450px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -20,6 +20,11 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
+#video-banner {
+  line-height: 8rem;
+  height: 720px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
