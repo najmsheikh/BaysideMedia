@@ -11,7 +11,7 @@
         lname = $("#last_name").val();
         email = $("#email").val();
         message = $("#message").val();
-        $.post("https://tranquil-cove-4564.herokuapp.com/sendmsg", {
+        $.post("https://baysidemediacorp.herokuapp.com/sendmsg", {
             firstname: fname,
             lastname: lname,
             email: email,
