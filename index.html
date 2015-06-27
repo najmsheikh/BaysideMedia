@@ -4,26 +4,32 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <!-- CHANGE TEXT IN TITLE TO CHANGE WHAT APPEARS ON THE WINDOW/TAB -->
     <title>Bayside Media Corp. - A Performance Marketing Group</title>
-    <!-- CSS  -->
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
+    
+    <!-- NAVIGATION BAR STUFF HERE -->
     <div class="navbar-fixed">
       <nav class="white" role="navigation">
         <div class="nav-wrapper container">
           <a id="logo-container" href="#" class="brand-logo">
+            <!-- CHANGE THE ADDRESS IN SRC OF IMG TO LINK TO A DIFFERENT LOGO IF NEEDED -->
             <img src="logo.jpg">
           </a>
           <ul class="right hide-on-med-and-down">
+            <!-- CHANGE WHATS ON THE NAVIGATION BAR / HREF IS WHERE ITS SUPPOSED TO LINK TO -->
             <li><a href="#FirstRow" class="black-text">First Row</a></li>
             <li><a href="#SecondRow" class="black-text">Second Row</a></li>
             <li><a href="#Contact" class="black-text">Contact Us</a></li>
           </ul>
           <ul id="nav-mobile" class="side-nav">
+            <!-- SAME AS ABOVE BUT FOR MOBILE. KEEP IT CONSISTENT WITH WHAT YOU PUT UP THERE -->
             <li><a href="#FirstRow">First Row</a></li>
             <li><a href="#SecondRow">Second Row</a></li>
             <li><a href="#Contact">Contact Us</a></li>
@@ -32,6 +38,8 @@
         </div>
       </nav>
     </div>
+
+    <!-- TOP FRONT DISPLAY SECTION -->
     <div id="video-banner" class="parallax-container hide-on-small-only">
       <div class="section no-pad-bot">
         <div class="container">
@@ -42,6 +50,7 @@
           </div>
         </div>
       </div>
+      <!-- AREA FOR THE VIDEO BG -->
       <div class="parallax" style="height: 800px">
         <div class="hide-on-small-only" style="width: 100%; height: 100%;"
           data-vide-bg="mp4: videos/video.mp4, webm: videos/video.webm, ogv: path/to/video3, poster: bg2.jpg" data-vide-options="posterType: jpg, loop: true, muted: true, position: 0% 0%">
@@ -62,9 +71,11 @@
         <div class=" parallax"><img src="bg2.jpg" style="display: block; -webkit-transform: translate3d(-50%, 297px, 0px);"></div>
       </div>
     </div>
+
+    <!-- CHANGE THE THREE PARAGRAPHS FROM THE FIRST ROW -->
     <div class="container">
       <div class="section">
-        <!--   Icon Section   -->
+        <!-- CHANGE THE ID SECTION TO WHAT YOU WANT IT TO SHOW IN URL. MUST BE SAME AS THE HREF IN THE NAVIGATION BAR -->
         <div class="row scrollspy" id="FirstRow">
           <div class="col s12 m4 hover">
             <div class="icon-block">
@@ -90,18 +101,25 @@
         </div>
       </div>
     </div>
+
+    <!-- PARALLAX SECTION -->
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
+            <!-- TEXT THAT SHOWS ON PARALLAX -->
             <h3 class="header col s12 light">We are the marketing gods.</h3>
           </div>
         </div>
       </div>
+      <!-- CHANGE SRC TO LINK TO DIFFERENT IMAGE IF YOU LIKE -->
       <div class="parallax"><img src="bg3.jpg" style="display: block; -webkit-transform: translate3d(-50%, 100px, 0px);"></div>
     </div>
+
+    <!-- MORE CONTENT TO EDIT -->
     <div class="container">
       <div class="section">
+        <!-- CHANGE THE ID SECTION TO WHAT YOU WANT IT TO SHOW IN URL. MUST BE SAME AS THE HREF IN THE NAVIGATION BAR -->
         <div class="row scrollspy" id="SecondRow">
           <div class="col s12 center">
             <h3><i class="mdi-content-send yellow-text text-darken-4"></i></h3>
@@ -111,17 +129,24 @@
         </div>
       </div>
     </div>
+
+    <!-- PARALLAX SECTION -->
     <div class="parallax-container valign-wrapper">
       <div class="section no-pad-bot">
         <div class="container">
           <div class="row center">
+            <!-- TEXT THAT SHOWS ON PARALLAX -->
             <h3 class="header col s12 light">Another cool catch phrase here</h3>
           </div>
         </div>
       </div>
+      <!-- CHANGE SRC TO LINK TO DIFFERENT IMAGE IF YOU LIKE -->
       <div class="parallax"><img src="bg1.jpg" alt="Unsplashed background img 3" style="display: block; -webkit-transform: translate3d(-50%, 297px, 0px);"></div>
     </div>
+
+    <!-- CONTACT FORM AREA -->
     <div class="container">
+      <!-- CHANGE THE ID SECTION TO WHAT YOU WANT IT TO SHOW IN URL. MUST BE SAME AS THE HREF IN THE NAVIGATION BAR. PROBABLY DONT WANNA CHANGE THIS-->
       <div class="section scrollspy" id="Contact">
         <h4 class="center">Contact Us</h4>
         <br><br>
@@ -156,6 +181,8 @@
         </div>
       </div>
     </div>
+
+    <!-- FOOTER AREA HERE -->
     <footer class="page-footer yellow darken-4">
       <div class="container">
         <div class="row">
@@ -165,7 +192,8 @@
           </div>
           <div class="col l3 offset-13 s13">
             <h5 class="white-text">Connect With Us!</h5>
-            <ul
+            <ul>
+              <!-- CHANGE THE HREF TO LINK TO APPROPRIATE SOCIAL CHANNEL -->
               <li><a class="white-text" href="#!">Facebook</a></li>
               <li><a class="white-text" href="#!">Twitter</a></li>
               <li><a class="white-text" href="#!">MySpace</a></li>
@@ -174,13 +202,15 @@
           </div>
         </div>
       </div>
+      <!-- COPYRIGHT SECTION -->
       <div class="footer-copyright">
         <div class="container">
           Made by <a class="yellow-text" href="http://linkedin.com/in/najmsheikh/">Najm Sheikh</a>
         </div>
       </div>
     </footer>
-    <!--  Scripts-->
+
+    <!--  SCRIPTS. DONT MESS WITH THESE -->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
     <script src="js/jquery.vide.min.js"></script>

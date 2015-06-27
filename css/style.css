@@ -7,6 +7,7 @@ p {
   line-height: 2rem;
 }
 
+/*CHANGE THE HEX CODE TO CHANGE COLOR OF THE NAVBAR MENU ON MOBILE*/
 .button-collapse {
   color: #f57f17 ;
 }
@@ -53,6 +54,7 @@ footer.page-footer {
   margin: 0;
 }
 
+/*CHANGE HEX CODE FOR THE ACCENT COLORS OF THE CONTACT FORM*/
 .input-field input[type=text]:focus  {
   border-bottom: 1px solid #f57f17;
   box-shadow: 0 1px 0 0 #f57f17;
