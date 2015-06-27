@@ -15,9 +15,9 @@
         email = $("#email").val();
         message = $("#message").val();
         $.post("https://tranquil-cove-4564.herokuapp.com/sendmsg", {
-            furstname: name,
-            lastname: phone,
-            email: subject,
+            firstname: fname,
+            lastname: lname,
+            email: email,
             msg: message
         }, function(data) {
             Materialize.toast('Your message has been delivered!', 4000);
