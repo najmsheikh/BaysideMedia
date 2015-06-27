@@ -5,6 +5,13 @@ var admin = process.env.admin_email;
 
 var app = express();
 
+app.get('/', function(req, res) {
+    res.sendfile("./index.html");
+});
+app.get(/^(.+)$/, function(req, res) {
+    res.sendfile(__dirname + req.params[0]);
+});
+
 app.use(bodyParser.urlencoded({
     extended: false
 }));

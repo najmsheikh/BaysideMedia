@@ -6,9 +6,6 @@
     $('.scrollspy').scrollSpy();
 
     var fname, lname, email, messsage;
-    $("input:radio[name=group1]").click(function() {
-        subject = $(this).val();
-    });
     $("#submit-button").click(function() {
         fname = $("#first_name").val();
         lname = $("#last_name").val();
