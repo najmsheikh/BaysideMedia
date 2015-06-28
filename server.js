@@ -6,8 +6,6 @@ var admin = process.env.admin_email;
 
 var app = express();
 
-app.use(cors());
-
 app.get('/', function(req, res) {
     res.sendfile("./index.html");
 });
@@ -20,6 +18,10 @@ app.use(bodyParser.urlencoded({
 }));
 
 app.post('/sendmsg', function(req, res) {
+    res.status(200);
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "Content-Type");
+
     var client = req.body.firstname + ' ' + req.body.lastname;
     var email = req.body.email;
     var msg = req.body.msg;
