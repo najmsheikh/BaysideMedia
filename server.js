@@ -1,9 +1,12 @@
 var express = require('express');
+var cors = require('cors');
 var bodyParser = require('body-parser');
 var sendgrid  = require('sendgrid')(process.env.api_user,process.env.api_key);
 var admin = process.env.admin_email;
 
 var app = express();
+
+app.use(cors());
 
 app.get('/', function(req, res) {
     res.sendfile("./index.html");
